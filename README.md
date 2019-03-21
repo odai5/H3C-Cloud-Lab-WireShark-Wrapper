@@ -1,1 +1,3 @@
 # H3C-Cloud-Lab-WireShark-Wrapper
+HCL原版程序抓包调用WireShark只能查看静态内容，参考GNS3调用tail再pipe到WireShark的方法，通过C#和cmd batch实现了一个外挂程序
+使得我们能够实时查看实验中产生的数据包内容。
